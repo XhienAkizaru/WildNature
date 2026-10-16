@@ -20,7 +20,7 @@ public final class WildNatureBlocks {
     public static final DeferredBlock<Block> MOSS_PATCH = BLOCKS.register("moss_patch", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("moss_patch")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
     public static final DeferredBlock<Block> WILD_GRASS = BLOCKS.register("wild_grass", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("wild_grass")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
     public static final DeferredBlock<Block> FALLEN_BRANCH = BLOCKS.register("fallen_branch", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("fallen_branch")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.WOOD)));
-    public static final DeferredBlock<Block> MUSHROOMS_CLUSTER = BLOCKS.register("mushrooms_cluster", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
+    public static final DeferredBlock<Block> MUSHROOMS_CLUSTER = BLOCKS.register("mushrooms_cluster", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("mushrooms_cluster")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
     public static final DeferredBlock<Block> WILDFLOWERS = BLOCKS.register("wildflowers", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("wildflowers")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
 
     private static ResourceKey<Block> blockKey(String name) {
