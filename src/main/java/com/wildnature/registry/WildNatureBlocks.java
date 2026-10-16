@@ -9,16 +9,16 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 public final class WildNatureBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(WildNature.MOD_ID);
-    public static final DeferredBlock<Block> TWIG_PILE = BLOCKS.register("twig_pile", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.WOOD)));
-    public static final DeferredBlock<Block> SMALL_PEBBLES = BLOCKS.register("small_pebbles", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> FALLEN_LEAVES = BLOCKS.register("fallen_leaves", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
-    public static final DeferredBlock<Block> FOREST_DEBRIS = BLOCKS.register("forest_debris", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
-    public static final DeferredBlock<Block> PINECONES = BLOCKS.register("pinecones", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.WOOD)));
-    public static final DeferredBlock<Block> MOSS_PATCH = BLOCKS.register("moss_patch", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
-    public static final DeferredBlock<Block> WILD_GRASS = BLOCKS.register("wild_grass", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
-    public static final DeferredBlock<Block> FALLEN_BRANCH = BLOCKS.register("fallen_branch", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.WOOD)));
-    public static final DeferredBlock<Block> MUSHROOMS_CLUSTER = BLOCKS.register("mushrooms_cluster", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
-    public static final DeferredBlock<Block> WILDFLOWERS = BLOCKS.register("wildflowers", () -> new Block(BlockBehaviour.Properties.of().noCollission().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
+    public static final DeferredBlock<Block> TWIG_PILE = BLOCKS.register("twig_pile", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> SMALL_PEBBLES = BLOCKS.register("small_pebbles", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> FALLEN_LEAVES = BLOCKS.register("fallen_leaves", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
+    public static final DeferredBlock<Block> FOREST_DEBRIS = BLOCKS.register("forest_debris", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
+    public static final DeferredBlock<Block> PINECONES = BLOCKS.register("pinecones", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> MOSS_PATCH = BLOCKS.register("moss_patch", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
+    public static final DeferredBlock<Block> WILD_GRASS = BLOCKS.register("wild_grass", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
+    public static final DeferredBlock<Block> FALLEN_BRANCH = BLOCKS.register("fallen_branch", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> MUSHROOMS_CLUSTER = BLOCKS.register("mushrooms_cluster", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
+    public static final DeferredBlock<Block> WILDFLOWERS = BLOCKS.register("wildflowers", () -> new Block(BlockBehaviour.Properties.of().noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
 
     private WildNatureBlocks() {}
 }
