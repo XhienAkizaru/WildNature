@@ -3,7 +3,7 @@ package com.wildnature.registry;
 import com.wildnature.WildNature;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -23,7 +23,7 @@ public final class WildNatureItems {
     public static final DeferredItem<BlockItem> WILDFLOWERS = ITEMS.register("wildflowers", () -> new BlockItem(WildNatureBlocks.WILDFLOWERS.get(), itemProperties("wildflowers")));
 
     private static Item.Properties itemProperties(String name) {
-        return new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(WildNature.MOD_ID, name))).useBlockDescriptionPrefix();
+        return new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(WildNature.MOD_ID, name))).useBlockDescriptionPrefix();
     }
 
     private WildNatureItems() {}
