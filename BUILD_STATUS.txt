@@ -1,0 +1,25 @@
+WildNature 1.0.0 — estado de verificación
+Fecha: 2026-10-16
+
+Comprobado en el entorno disponible:
+- 62 archivos JSON parseados correctamente.
+- Diez conjuntos decorativos con blockstate, modelo de bloque, modelo de item y textura.
+- Referencias internas de placed_feature -> configured_feature y biome_modifier -> placed_feature comprobadas.
+- Modelos de hierba silvestre, flores y setas cambiados a modelos cruzados para evitar que parezcan cubos sólidos.
+- Frecuencias de generación reducidas para favorecer una distribución menos densa.
+- Validador offline ejecutado con resultado PASS.
+
+No comprobado:
+- Compilación Java/Gradle: solo hay JDK 21, no hay Gradle y el entorno no puede resolver DNS/conectarse a Maven.
+- Arranque de Minecraft 26.3 / NeoForge 26.3.0.86.
+- Validación de los datos de worldgen en el runtime exacto.
+
+No se incluye JAR compilado. Este ZIP es código fuente, no un mod instalable todavía.
+
+Pendiente para la versión final completa:
+- Compilación y prueba dentro del juego.
+- Configuración real de opciones/densidad.
+- Sonidos ambientales.
+- Efectos visuales de lluvia/nieve.
+- Árboles naturales mejorados.
+- Pruebas de persistencia y rendimiento.

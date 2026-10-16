@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:is_plains",
+  "features": [
+    "wildnature:wild_grass"
+  ],
+  "step": "vegetal_decoration"
+}

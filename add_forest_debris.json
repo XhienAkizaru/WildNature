@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:is_forest",
+  "features": [
+    "wildnature:forest_debris"
+  ],
+  "step": "vegetal_decoration"
+}

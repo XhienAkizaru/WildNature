@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:is_forest",
+  "features": [
+    "wildnature:twig_pile"
+  ],
+  "step": "vegetal_decoration"
+}

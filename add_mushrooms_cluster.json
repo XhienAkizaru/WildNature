@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:is_forest",
+  "features": [
+    "wildnature:mushrooms_cluster"
+  ],
+  "step": "vegetal_decoration"
+}
