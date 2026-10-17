@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "minecraft:is_taiga",
+  "biomes": "#minecraft:is_taiga",
   "features": [
     "wildnature:pinecones"
   ],
