@@ -1,6 +1,11 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "#minecraft:is_plains",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow",
+    "minecraft:flower_forest"
+  ],
   "features": [
     "wildnature:wildflowers"
   ],
