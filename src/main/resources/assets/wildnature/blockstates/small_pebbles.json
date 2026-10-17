@@ -1,7 +1,22 @@
 {
   "variants": {
-    "": {
-      "model": "wildnature:block/small_pebbles"
-    }
+    "": [
+      {
+        "model": "wildnature:block/small_pebbles",
+        "weight": 2
+      },
+      {
+        "model": "wildnature:block/small_pebbles_scattered",
+        "weight": 3
+      },
+      {
+        "model": "wildnature:block/small_pebbles_cluster",
+        "weight": 2
+      },
+      {
+        "model": "wildnature:block/small_pebbles_sparse",
+        "weight": 3
+      }
+    ]
   }
 }
