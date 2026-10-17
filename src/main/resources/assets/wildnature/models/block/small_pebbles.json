@@ -21,7 +21,7 @@
           4
         ],
         "axis": "y",
-        "angle": 22,
+        "angle": 22.5,
         "rescale": false
       },
       "faces": {
@@ -63,7 +63,7 @@
           9.5
         ],
         "axis": "y",
-        "angle": -22,
+        "angle": -22.5,
         "rescale": false
       },
       "faces": {
@@ -147,7 +147,7 @@
           11.5
         ],
         "axis": "y",
-        "angle": -22,
+        "angle": -22.5,
         "rescale": false
       },
       "faces": {
