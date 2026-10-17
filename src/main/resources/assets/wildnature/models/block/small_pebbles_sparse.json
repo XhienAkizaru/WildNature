@@ -33,6 +33,16 @@
         "down": {
           "texture": "#all"
         }
+      },
+      "rotation": {
+        "origin": [
+          3.5,
+          0.5,
+          3.5
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
       }
     },
     {
@@ -97,6 +107,16 @@
         "down": {
           "texture": "#all"
         }
+      },
+      "rotation": {
+        "origin": [
+          6.5,
+          1.5,
+          9.5
+        ],
+        "axis": "y",
+        "angle": 22.5,
+        "rescale": false
       }
     },
     {
