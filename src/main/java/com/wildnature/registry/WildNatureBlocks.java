@@ -1,6 +1,7 @@
 package com.wildnature.registry;
 
 import com.wildnature.WildNature;
+import com.wildnature.block.SmallPebblesBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
@@ -13,7 +14,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 public final class WildNatureBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(WildNature.MOD_ID);
     public static final DeferredBlock<Block> TWIG_PILE = BLOCKS.register("twig_pile", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("twig_pile")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.WOOD)));
-    public static final DeferredBlock<Block> SMALL_PEBBLES = BLOCKS.register("small_pebbles", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("small_pebbles")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.STONE)));
+    public static final DeferredBlock<SmallPebblesBlock> SMALL_PEBBLES = BLOCKS.register("small_pebbles", () -> new SmallPebblesBlock(BlockBehaviour.Properties.of().setId(blockKey("small_pebbles")).sound(SoundType.STONE)));
     public static final DeferredBlock<Block> FALLEN_LEAVES = BLOCKS.register("fallen_leaves", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("fallen_leaves")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
     public static final DeferredBlock<Block> FOREST_DEBRIS = BLOCKS.register("forest_debris", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("forest_debris")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.GRASS)));
     public static final DeferredBlock<Block> PINECONES = BLOCKS.register("pinecones", () -> new Block(BlockBehaviour.Properties.of().setId(blockKey("pinecones")).noOcclusion().instabreak().strength(0.05F).sound(SoundType.WOOD)));
