@@ -9,8 +9,8 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 /**
- * Decorative scattered pebbles. Their visible shape is low, but they have no
- * collision so the player can walk through/across the patch without snagging.
+ * Decorative scattered pebbles. Only the five stone shapes have collision;
+ * the empty space between and around them remains walkable.
  */
 public final class SmallPebblesBlock extends Block {
     private static final VoxelShape VISUAL_SHAPE = Shapes.or(
@@ -32,6 +32,6 @@ public final class SmallPebblesBlock extends Block {
 
     @Override
     public VoxelShape getCollisionShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return Shapes.empty();
+        return VISUAL_SHAPE;
     }
 }
